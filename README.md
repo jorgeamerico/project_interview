@@ -13,7 +13,7 @@ Desafio A. POP
 curl -H "Content-Type: application/json" -X POST http://x.x.x.x:5000/api/queue/pop
 
 Desafio B. PUSH
-curl -H "Content-Type: application/json" -X POST -d "{\"thing\":\"CBR\"}" http://x.x.x.x:5000/api/queue/push
+curl -H "Content-Type: application/json" -X POST -d "{\"\"thing\":\"CBR\"}" http://x.x.x.x:5000/api/queue/push
 
 Desafio B. COUNT
 curl -H "Content-type: application/json" -X GET http://x.x.x.x:5000/api/queue/count
